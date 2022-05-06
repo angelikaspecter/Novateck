@@ -1,0 +1,21 @@
+@import "_promo-header";
+@import "_company";
+@import "_info-block";
+@import "_promo-footer";
+
+.company,
+.platform,
+.investors,
+.projects {
+	& h2 {
+		position: relative;
+		font-weight: 700;
+		& span {
+			position: absolute;
+			top: -120px;
+		}
+	}
+	& p {
+		font-size: 18px;
+	}
+}
